@@ -1,1 +1,1 @@
-# Monitorador-de-Vazamentos-WEB
+O Objetivo deste projeto é criar um sistema web de monitoramento de vazamento de dados, emails através da integração com a API do HaveIBeenPwned, um extenso banco de dados de vazamentos. O sistema web tem frontend feito em HTML, CSS e backend feito em Python utilizando o Flask.
