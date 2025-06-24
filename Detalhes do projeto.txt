@@ -1,0 +1,17 @@
+Até o momento da entrega do dia 24/06, o projeto possui as seguintes funcionalidades:
+* interface front end básico
+* validação de entrada
+* integração com a api do haveibeenpwned
+* proteção CSRF via flask wtf
+
+Até a próxima semana, no dia 01/07, pretendo adicionar as seguintes:
+
+* Integração com banco de dados
+* Sistema de login
+* Um dashboard web mais organizado e bonito
+* Login com autenticação multi fator
+* Protocolo HTTPS
+* Log de Alteração
+* Hashing
+* Assinatura Digital
+* Políticas do LGPD como exclusão dos dados no site e consentimento do usuário para coleta e armazenamento de seus dados
