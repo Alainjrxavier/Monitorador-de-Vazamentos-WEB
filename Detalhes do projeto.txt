@@ -15,3 +15,19 @@ Até a próxima semana, no dia 01/07, pretendo adicionar as seguintes:
 * Hashing
 * Assinatura Digital
 * Políticas do LGPD como exclusão dos dados no site e consentimento do usuário para coleta e armazenamento de seus dados
+
+No dia 01/05 após acompanhamento, foram integrados as novas funcionalidades:
+
+* Integração com banco de dados
+* Sistema de login e gistro
+* Um dashboard web mais organizado e bonito
+* Protocolo HTTPS
+* Log de Alteração
+* Hashing
+* Assinatura Digital
+* Controle de sessão
+
+Até a próxima semana, pretendo adicionar:
+* Login com autenticação multi fator
+* Políticas do LGPD como exclusão dos dados no site e consentimento do usuário para coleta e armazenamento de seus dados
+* Log de alteração mostrado de forma visual no banco de dados
