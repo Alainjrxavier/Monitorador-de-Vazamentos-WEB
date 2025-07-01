@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Seu Painel de Controle</h1>
+    <p>Olá, {{ current_user.email }}! Adicione e-mails abaixo para monitoramento contínuo.</p>
+
+    <div class="form-wrapper">
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <div class="form-field">
+                {{ form.email.label(class="form-label") }}
+                {{ form.email(class="form-input") }}
+                {% for error in form.email.errors %}
+                <span class="error-message">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+            <div class="form-field">
+                {{ form.submit(class="submit-button", value="Adicionar") }}
+            </div>
+        </form>
+    </div>
+    <hr>
+
+    <h2>E-mails em Monitoramento</h2>
+    {% if dashboard_data %}
+        <ul class="monitored-list">
+        {# O loop agora itera sobre nossa lista de dados enriquecidos #}
+        {% for item in dashboard_data %}
+            <li>
+                <span>
+                    {{ item.db_entry.email }}
+
+                    {# Lógica para exibir o status de segurança #}
+                    {% if item.breach_info and item.breach_info.breaches %}
+                        <span class="badge-danger">Vazado ({{ item.breach_info.breaches|length }})</span>
+                    {% else %}
+                        <span class="badge-success">Seguro</span>
+                    {% endif %}
+                </span>
+                
+                <form action="{{ url_for('delete_email', email_id=item.db_entry.id) }}" method="POST" style="display: inline;">
+                    <input type="submit" value="Remover" class="button-danger">
+                </form>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Você ainda não está monitorando nenhum e-mail.</p>
+    {% endif %}
+
+{% endblock %}
