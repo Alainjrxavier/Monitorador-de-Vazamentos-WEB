@@ -2,6 +2,7 @@ O que você vai precisar:
 1 - No arquivo key.env, defina as APIS do flask e do HaveIBeenPwned
 1.1 - A API do flask você mesmo pode criar uma da forma que desejar no .env e definir.
 1.2 - a API do HaveIbeenPwned pode ser adquirida aqui: https://haveibeenpwned.com/Subscription
+1.3 - importe o banco .sql e coloque as informações para conexão ao seu banco de dados no .env
 * Pronto, após selecionar a pasta com o código no seu Visual Studio ou qualquer outro programa de código, é só executar um único comando no terminal:
 pip install -r requirements.txt
 agora o código está totalmente funcional, execute-o através do run.py
