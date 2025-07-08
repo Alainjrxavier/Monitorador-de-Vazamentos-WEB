@@ -31,3 +31,9 @@ Até a próxima semana, pretendo adicionar:
 * Login com autenticação multi fator
 * Políticas do LGPD como exclusão dos dados no site e consentimento do usuário para coleta e armazenamento de seus dados
 * Log de alteração mostrado de forma visual no banco de dados
+
+Na última semana, foram integradas as ultimas funcionalidades:
+LGPD (direito de exclusão) o usuário pode excluir sua própria conta no dashboard apõs confirmar sua senha
+LGPD (consentimento e transparência ) uma caixa de seleção obrigatório de eu concordo com os termos
+log de auditoria no banco de dados e no site(apenas usuários administradores tem acesso)
+
