@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Logs de Auditoria do Sistema</h1>
+    <table class="log-table">
+        <thead>
+            <tr>
+                <th>Data/Hora (UTC)</th>
+                <th>Nível</th>
+                <th>Usuário</th>
+                <th>Mensagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in logs %}
+            <tr>
+                <td>{{ log.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                <td><span class="badge-log-{{ log.level.lower() }}">{{ log.level }}</span></td>
+                <td>{{ log.user.email if log.user else 'Sistema' }}</td>
+                <td>{{ log.message }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

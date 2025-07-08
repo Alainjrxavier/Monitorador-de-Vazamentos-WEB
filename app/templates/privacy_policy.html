@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Política de Privacidade</h1>
+    <p>Última atualização: 07 de Julho de 2025</p>
+
+    <h2>1. Dados que Coletamos</h2>
+    <p>Coletamos as seguintes informações pessoais quando você se cadastra:</p>
+    <ul>
+        <li>Seu endereço de e-mail (para login e alertas).</li>
+        <li>Sua senha de forma criptografada (hash).</li>
+        <li>Os e-mails que você submete para monitoramento.</li>
+    </ul>
+
+    <h2>2. Como Usamos Seus Dados</h2>
+    <p>Seus dados são usados exclusivamente para:</p>
+    <ul>
+        <li>Permitir seu acesso seguro ao sistema.</li>
+        <li>Consultar a API do HaveIBeenPwned para verificar vazamentos nos e-mails que você monitora.</li>
+        <li>(Futuramente) Enviar alertas sobre novos vazamentos.</li>
+    </ul>
+    <p>Nós não vendemos ou compartilhamos seus dados com terceiros.</p>
+
+    <h2>3. Seus Direitos</h2>
+    <p>De acordo com a LGPD, você tem o direito de acessar, corrigir e apagar seus dados. A funcionalidade de apagar sua conta está disponível no seu perfil.</p>
+{% endblock %}

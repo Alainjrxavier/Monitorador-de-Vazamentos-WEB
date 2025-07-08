@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Cadastre-se</h1>
+    
+    <div class="form-wrapper">
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+
+            <div class="form-field">
+                {{ form.email.label(class="form-label") }}
+                {{ form.email(class="form-input") }}
+                {% for error in form.email.errors %}
+                <span class="error-message">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+
+            <div class="form-field">
+                {{ form.password.label(class="form-label") }}
+                {{ form.password(class="form-input") }}
+                {% for error in form.password.errors %}
+                <span class="error-message">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+
+            <div class="form-field">
+                {{ form.password2.label(class="form-label") }}
+                {{ form.password2(class="form-input") }}
+                {% for error in form.password2.errors %}
+                <span class="error-message">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+
+            <div class="form-field">
+                {{ form.accept_tos() }}
+                {{ form.accept_tos.label }}
+                {% for error in form.accept_tos.errors %}
+                    <br><span class="error-message">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+
+            <div class="form-field">
+                {{ form.submit(class="submit-button") }}
+            </div>
+        </form>
+    </div>
+{% endblock %}

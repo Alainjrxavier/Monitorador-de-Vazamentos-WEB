@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Apagar Conta</h1>
+    <div class="result-card breach">
+        <h3>Atenção: Ação Irreversível</h3>
+        <p>Você está prestes a apagar permanentemente sua conta e todos os dados associados a ela, incluindo a lista de e-mails que você monitora.</p>
+        <p><strong>Esta ação não pode ser desfeita.</strong></p>
+    </div>
+
+    <div class="form-wrapper">
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <div class="form-field">
+                {{ form.password.label }}<br>
+                {{ form.password(class="form-input", size=32) }}<br>
+                {% for error in form.password.errors %}
+                <span class="error-message">[{{ error }}]</span>
+                {% endfor %}
+            </div>
+            <div class="form-field">
+                {{ form.submit(class="button-danger") }}
+            </div>
+        </form>
+    </div>
+{% endblock %}

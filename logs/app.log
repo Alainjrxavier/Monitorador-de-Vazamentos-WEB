@@ -1,0 +1,82 @@
+2025-07-07 12:42:36,462 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:42:37,411 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:42:46,401 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com'
+2025-07-07 12:42:46,401 - INFO - CACHE MISS: Realizando consulta na API para 'alainx42@gmail.com'
+2025-07-07 12:42:47,783 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO.
+2025-07-07 12:42:49,297 - INFO - CACHE MISS: Realizando consulta na API para 'alainxavier11@gmail.com'
+2025-07-07 12:42:50,480 - INFO - CACHE MISS: Realizando consulta na API para 'test@gmail.com'
+2025-07-07 12:42:53,568 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainx42@gmail.com' (ID: 32) do monitoramento.
+2025-07-07 12:42:55,300 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainxavier11@gmail.com' (ID: 33) do monitoramento.
+2025-07-07 12:42:55,914 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'test@gmail.com' (ID: 34) do monitoramento.
+2025-07-07 12:45:23,057 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:45:23,945 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:45:28,663 - INFO - CACHE MISS: Realizando consulta na API para 'alainx42@gmail.com'
+2025-07-07 12:45:31,805 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainx42@gmail.com' (ID: 35) do monitoramento.
+2025-07-07 12:47:08,771 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:47:09,752 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:47:27,904 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:47:28,918 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:47:38,769 - INFO - CACHE MISS: Realizando consulta na API para 'alainx42@gmail.com'
+2025-07-07 12:47:39,899 - INFO - RETORNO DA API PARA 'alainx42@gmail.com': {'breaches': [{'Name': 'InternetArchive'}], 'error': None}
+2025-07-07 12:48:15,801 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com'
+2025-07-07 12:48:15,802 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO.
+2025-07-07 12:50:09,363 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:50:10,332 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:50:14,265 - INFO - CACHE MISS: Realizando consulta na API para 'alainx42@gmail.com'
+2025-07-07 12:50:15,254 - INFO - RETORNO DA API PARA 'alainx42@gmail.com': {'breaches': [{'Name': 'InternetArchive'}], 'error': None}
+2025-07-07 12:50:21,440 - INFO - CACHE MISS: Realizando consulta na API para 'alainxavier11@gmail.com'
+2025-07-07 12:50:22,673 - INFO - RETORNO DA API PARA 'alainxavier11@gmail.com': {'breaches': None, 'error': None}
+2025-07-07 12:50:28,583 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com'
+2025-07-07 12:50:28,583 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO.
+2025-07-07 12:53:22,301 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:53:39,202 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com'
+2025-07-07 12:53:40,262 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO.
+2025-07-07 12:59:56,166 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 12:59:57,245 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 13:00:54,519 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 13:00:55,419 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 13:01:23,546 - INFO - Aplicação iniciada e logger configurado.
+2025-07-07 13:07:17,779 - INFO - Aplicação iniciada e logger configurado. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\logger_config.py:34]
+2025-07-07 13:09:05,368 - INFO - Aplicação iniciada e logger configurado. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\logger_config.py:34]
+2025-07-07 13:10:54,647 - INFO - Aplicação iniciada e logger configurado. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\logger_config.py:34]
+2025-07-07 13:10:55,640 - INFO - Aplicação iniciada e logger configurado. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\logger_config.py:34]
+2025-07-07 13:11:07,245 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com' [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\routes.py:20]
+2025-07-07 13:11:08,298 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\routes.py:25]
+2025-07-07 13:11:18,123 - INFO - Consulta iniciada para o e-mail: 'alainxavier11@gmail.com' [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\routes.py:20]
+2025-07-07 13:11:19,059 - INFO - Resultado para 'alainxavier11@gmail.com': Nenhum vazamento conhecido encontrado. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\routes.py:29]
+2025-07-07 13:14:21,418 - INFO - Novo usuário cadastrado: 'alaintest@gmail.com' [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\routes.py:50]
+2025-07-07 13:14:29,662 - INFO - Usuário 'alaintest@gmail.com' logado com sucesso. [c:\Users\User\OneDrive\Área de Trabalho\monitor_vazamentos\app\routes.py:68]
+2025-07-07 23:23:51,222 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-07 23:24:49,713 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-07 23:24:53,766 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-07 23:25:15,724 - INFO - Usuário 'alainxavier11@gmail.com' logado com sucesso. [e:\monitoramento vazamentos\app\routes.py:68]
+2025-07-07 23:25:21,311 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainxavier11@gmail.com' (ID: 37) do monitoramento. [e:\monitoramento vazamentos\app\routes.py:127]
+2025-07-07 23:25:33,529 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainxavier11@gmail.com' (ID: 39) do monitoramento. [e:\monitoramento vazamentos\app\routes.py:127]
+2025-07-07 23:25:37,303 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com' [e:\monitoramento vazamentos\app\routes.py:20]
+2025-07-07 23:25:37,308 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO. [e:\monitoramento vazamentos\app\routes.py:25]
+2025-07-07 23:25:44,800 - INFO - Consulta iniciada para o e-mail: 'alainxavier11@gmail.com' [e:\monitoramento vazamentos\app\routes.py:20]
+2025-07-07 23:25:44,804 - ERROR - Resultado para 'alainxavier11@gmail.com': Erro na consulta. Erro: Erro na API (Status: 429) [e:\monitoramento vazamentos\app\routes.py:27]
+2025-07-07 23:25:52,881 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com' [e:\monitoramento vazamentos\app\routes.py:20]
+2025-07-07 23:25:52,886 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO. [e:\monitoramento vazamentos\app\routes.py:25]
+2025-07-07 23:27:48,308 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-07 23:27:49,589 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-07 23:27:52,958 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com' [e:\monitoramento vazamentos\app\routes.py:20]
+2025-07-07 23:27:52,966 - INFO - CACHE MISS: Realizando consulta na API para 'alainx42@gmail.com' [e:\monitoramento vazamentos\app\services.py:12]
+2025-07-07 23:27:53,771 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO. [e:\monitoramento vazamentos\app\routes.py:25]
+2025-07-07 23:28:02,865 - INFO - CACHE MISS: Realizando consulta na API para 'alainxavier11@gmail.com' [e:\monitoramento vazamentos\app\services.py:12]
+2025-07-07 23:28:45,922 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainx42@gmail.com' (ID: 36) do monitoramento. [e:\monitoramento vazamentos\app\routes.py:127]
+2025-07-07 23:28:46,439 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainxavier11@gmail.com' (ID: 40) do monitoramento. [e:\monitoramento vazamentos\app\routes.py:127]
+2025-07-08 01:20:40,301 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-08 01:20:41,647 - INFO - Aplicação iniciada e logger configurado. [e:\monitoramento vazamentos\app\logger_config.py:34]
+2025-07-08 01:23:18,779 - INFO - Consulta iniciada para o e-mail: 'alainx42@gmail.com' [e:\monitoramento vazamentos\app\routes.py:20]
+2025-07-08 01:23:18,784 - INFO - CACHE MISS: Realizando consulta na API para 'alainx42@gmail.com' [e:\monitoramento vazamentos\app\services.py:12]
+2025-07-08 01:23:20,072 - WARNING - Resultado para 'alainx42@gmail.com': VAZAMENTO ENCONTRADO. [e:\monitoramento vazamentos\app\routes.py:25]
+2025-07-08 01:23:34,780 - INFO - Consulta iniciada para o e-mail: 'alainxavier11@gmail.com' [e:\monitoramento vazamentos\app\routes.py:20]
+2025-07-08 01:23:34,785 - INFO - CACHE MISS: Realizando consulta na API para 'alainxavier11@gmail.com' [e:\monitoramento vazamentos\app\services.py:12]
+2025-07-08 01:23:35,531 - INFO - Resultado para 'alainxavier11@gmail.com': Nenhum vazamento conhecido encontrado. [e:\monitoramento vazamentos\app\routes.py:29]
+2025-07-08 01:24:18,518 - INFO - Novo usuário cadastrado: 'alain12345@gmail.com' [e:\monitoramento vazamentos\app\routes.py:50]
+2025-07-08 01:24:27,865 - INFO - Usuário 'alainxavier11@gmail.com' logado com sucesso. [e:\monitoramento vazamentos\app\routes.py:68]
+2025-07-08 01:25:25,599 - INFO - Usuário 'alainxavier11@gmail.com' deletou sua própria conta. [e:\monitoramento vazamentos\app\routes.py:142]
+2025-07-08 01:31:07,078 - INFO - Novo usuário cadastrado: 'alainxavier11@gmail.com' [e:\monitoramento vazamentos\app\routes.py:50]
+2025-07-08 01:31:10,496 - INFO - Usuário 'alainxavier11@gmail.com' logado com sucesso. [e:\monitoramento vazamentos\app\routes.py:68]
+2025-07-08 01:32:51,434 - INFO - Usuário 'alainxavier11@gmail.com' removeu o e-mail 'alainx42@gmail.com' (ID: 41) do monitoramento. [e:\monitoramento vazamentos\app\routes.py:127]
